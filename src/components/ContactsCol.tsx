@@ -1,0 +1,24 @@
+import * as React from "react"
+
+const ContactsCol = () => {
+  return (
+    <div className="text-end border-r-2 border-black w-80 shrink-0 min-h-full">
+      <p className="p-4">
+        I'm Ashkan Arabi. I'm driven by rage, deadlines, and competition. Some say it's a bad thing, but this lifestyle makes me feel alive!!!
+      </p>
+      <h1 className="text-2xl border-t-2 border-black p-4">follow me!</h1>
+      <ul className="pr-4 pl-4">
+        <li><a href="https://www.linkedin.com/in/ashkan-arabi/">LinkedIn</a> &lt;--</li>
+        <li><a href="https://github.com/AshkanArabim">GitHub</a> &lt;--</li>
+        <li><a href="https://x.com/AshkanArabim">X</a> &lt;--</li>
+        <li><a href="https://www.instagram.com/ashkan.arabim/">Instagram</a> &lt;--</li>
+        <li><a href="https://www.reddit.com/user/AshkanArabim">Reddit</a> &lt;--</li>
+        <li><a href="https://stackoverflow.com/users/14751074/ashkan-arabi">Stack Overflow</a> &lt;--</li>
+        <li><a href="https://www.youtube.com/@ashkan.arabim">YouTube</a> &lt;--</li>
+        <li><a href="https://t.me/AshkanArabim">Telegram</a> &lt;--</li>
+      </ul>
+    </div>
+  )
+}
+
+export default ContactsCol
