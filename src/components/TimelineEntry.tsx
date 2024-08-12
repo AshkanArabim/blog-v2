@@ -2,6 +2,7 @@ import * as React from "react"
 
 // TODO: should be modded to directly take a blog entry data structure
 const TimelineEntry = () => {
+    // cmt: temp
     const date = "2024-08-11"
     const title = "why projects matter"
     const peek = `
