@@ -1,23 +1,22 @@
-import * as React from "react"
-import { Link, HeadFC, PageProps } from "gatsby"
-import TitleBar from "../components/TitleBar"
-import InvalidBlogBody from "../components/InvalidBlogBody"
-import ContactsCol from "../components/ContactsCol"
+import * as React from "react";
+import { Link, HeadFC, PageProps } from "gatsby";
+import TitleBar from "../components/TitleBar";
+import BlogBody from "../components/BlogBody";
+import ContactsCol from "../components/ContactsCol";
 
 const NotFoundPage: React.FC<PageProps> = () => {
-
-  // skeleton manually matched with `index.tsx`
-  return (
+	// skeleton manually matched with `index.tsx`
+	return (
 		<div className="flex flex-col items-center min-h-screen">
-      <TitleBar date="404" title="not found..."/>
+			<TitleBar date="404" title="not found..." />
 			<div className="max-w-6xl w-full grow flex">
-        <ContactsCol backbutton />
-        <InvalidBlogBody />
+				<ContactsCol backbutton />
+				<BlogBody>This page doesn't exist!!</BlogBody>
 			</div>
-    </div>
-  )
-}
+		</div>
+	);
+};
 
-export default NotFoundPage
+export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => <title>Not found</title>;
