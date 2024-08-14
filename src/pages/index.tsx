@@ -36,7 +36,7 @@ export const Head: HeadFC = () => <title>blog.ashkan.zone</title>;
 
 export const query = graphql`
 	{
-		allMarkdownRemark {
+		allMarkdownRemark (sort: { frontmatter: {date: DESC} }) {
 			nodes {
 				excerpt(pruneLength:300)
 				frontmatter {
