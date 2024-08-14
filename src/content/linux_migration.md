@@ -1,6 +1,6 @@
 ---
 slug: "/linux-migration"
-date: "2023-10-30"
+date: "2023-10-30T20:00:00"
 title: "Why I migrated to Linux from Windows 11"
 ---
 

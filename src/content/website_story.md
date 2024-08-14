@@ -1,6 +1,6 @@
 ---
 slug: "/website-story"
-date: "2023-10-30"
+date: "2023-10-30T16:00:00"
 title: "How this project came to be"
 ---
 
