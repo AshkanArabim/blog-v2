@@ -19,7 +19,7 @@ interface Data {
 export default function EntriesCol({ data }: { data: Data }) {
 	return (
 		<div className="grow">
-			<h1 className="text-3xl p-4">Timeline (red means clickable)</h1>
+			<h1 className="text-3xl p-4">Timeline</h1>
 			{data.allMarkdownRemark.nodes.map(
 				({ excerpt, frontmatter: { date, slug, title } }) => (
 					<TimelineEntry date={date} title={title} slug={slug} peek={excerpt} />

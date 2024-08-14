@@ -20,15 +20,21 @@ const IndexView = () => {
 
 	return (
 		<>
-			<p className="p-4">
+			<div className="p-4">
+				BEFORE YOU START READING: Any red text means it's clickable.
+				<br />
+				<br />
 				I'm Ashkan Arabi. I'm driven by rage, deadlines, and competition. Some say it's a bad thing,
 				but this lifestyle makes me feel alive!!!
-			</p>
-			<h1 className="text-2xl border-t-2 border-black p-4">follow me!</h1>
+				<br />
+				<br />
+				You can find the source code of this blog <a href="https://github.com/AshkanArabim/blog-v2">here</a>.
+			</div>
+			<h1 className="text-2xl border-t-2 border-black px-4 pt-4">follow me!</h1>
 			<ul className="pr-4 pl-4">
 				{link_pairs.map(([url, name]) => (
 					<li>
-						<a href={url}>{name}</a> &lt;--
+						--&gt; <a href={url}>{name}</a>
 					</li>
 				))}
 			</ul>
@@ -40,9 +46,11 @@ const BlogView = () => {
 	return (
 		<div className="p-8">
       <Link to="/">
-        <CustomButton>
-          &lt;-- main menu
-        </CustomButton>
+        <div className="text-center py-6">
+					<CustomButton>
+						&lt;-- main menu
+					</CustomButton>
+				</div>
       </Link>
 		</div>
 	);
@@ -50,7 +58,7 @@ const BlogView = () => {
 
 const ContactsCol = ({ backbutton = false }: Props) => {
 	return (
-		<div className="text-end border-r-2 border-black w-80 shrink-0 min-h-full">
+		<div className="border-r-2 border-black w-80 shrink-0 min-h-full">
 			<div className="sticky top-0">{backbutton ? <BlogView /> : <IndexView />}</div>
 		</div>
 	);
