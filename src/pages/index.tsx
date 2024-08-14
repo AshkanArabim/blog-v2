@@ -9,7 +9,7 @@ interface Data {
 	allMarkdownRemark: {
 		nodes: [
 			{
-				html: string;
+				excerpt: string;
 				frontmatter: {
 					date: string;
 					slug: string;
@@ -38,7 +38,7 @@ export const query = graphql`
 	{
 		allMarkdownRemark {
 			nodes {
-				html
+				excerpt(pruneLength:300)
 				frontmatter {
 					date(formatString: "YYYY-MM-DD")
 					slug
