@@ -14,7 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy": "gatsby build && gh-pages -d public"
+    "add-domain": "echo \"blog.ashkan.zone\" > public/CNAME",
+    "deploy": "gatsby build && npm run add-domain && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^5.13.5",
