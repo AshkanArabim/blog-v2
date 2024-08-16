@@ -1,5 +1,5 @@
 # Blog v2
-All cool devs have a blog. I want to be a cool dev, therefore I made a blog.
+All cool devs have a blog. I want to be a cool dev, therefore I made a blog: [blog.ashkan.zone](https://blog.ashkan.zone/).
 
 
 
