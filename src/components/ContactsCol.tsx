@@ -45,13 +45,13 @@ const IndexView = () => {
 const BlogView = () => {
 	return (
 		<div className="p-8">
-      <Link to="/">
+      <a href="/">
         <div className="text-center py-6">
 					<CustomButton>
 						&lt;-- main menu
 					</CustomButton>
 				</div>
-      </Link>
+      </a>
 		</div>
 	);
 };
