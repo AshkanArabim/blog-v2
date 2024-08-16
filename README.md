@@ -8,6 +8,7 @@ Why v2? Because I had another blog project that was an eyesore. This one looks d
 ## tech stack (from low to high abstraction)
 - TypeScript: Literally just JavaScript but with static typing.
 - [React](https://react.dev/): The go-to framework to make abstract UI components.
+- [Tailwind CSS](https://tailwindcss.com/): Awesome implementation of atomic CSS.
 - [Gatsby](https://www.gatsbyjs.com/): features specifically for making blogs (e.g. writing blog entries in Markdown!)
 
 ## getting started
