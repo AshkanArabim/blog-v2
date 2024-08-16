@@ -38,8 +38,8 @@ At this stage I’m taking the absolute bare minimum to stay a full-time student
 I busted my ass for two years to get into a pretty nice research lab. Probably the best lab at my school doing deep learning work. But guess what? If you’re not planning to get into academia, you have a serious risk of just becoming a glorified data analyst after 5 years of hard work getting a PhD in a trendy field. 
 
 Research is a gamble. You either get interested in something, and that thing absolutely blows up, or you’ll live a lower middle class life. Don’t believe me? Check these two articles:  
-[- Are there too many PhDs?](https://craftofcoding.wordpress.com/2022/11/30/are-there-too-many-phds/)  
-[- Has the Doctorate Become a Dead End?](https://www.realclearscience.com/articles/2022/03/25/has_the_doctorate_become_a_dead_end_823660.html)
+- [Are there too many PhDs?](https://craftofcoding.wordpress.com/2022/11/30/are-there-too-many-phds/)  
+- [Has the Doctorate Become a Dead End?](https://www.realclearscience.com/articles/2022/03/25/has_the_doctorate_become_a_dead_end_823660.html)
  
 
 Of course this is different if you genuinely care about the topic you’re researching. A PhD is a once-in-a-lifetime opportunity to dive extremely deep about something you’ve always wanted to learn. All I’m saying is that if you’re not TRULY, ABSOLUTELY, AND UNCONDITIONALLY interested in a research area, don’t even bother. If this IS you, however, go for it. Undergraduate research is the primary way to get ahead in your research career.
