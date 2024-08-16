@@ -30,7 +30,7 @@ const IndexView = () => {
 				<br />
 				You can find the source code of this blog <a href="https://github.com/AshkanArabim/blog-v2">here</a>.
 			</div>
-			<h1 className="text-2xl border-t-2 border-black px-4 pt-4">follow me!</h1>
+			<p className="text-2xl border-t-2 border-black px-4 pt-4">follow me!</p>
 			<ul className="pr-4 pl-4">
 				{link_pairs.map(([url, name]) => (
 					<li>
