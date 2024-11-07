@@ -24,8 +24,7 @@ const IndexView = () => {
 				BEFORE YOU START READING: Any red text means it's clickable.
 				<br />
 				<br />
-				I'm Ashkan Arabi. I'm driven by rage, deadlines, and competition. Some say it's a bad thing,
-				but this lifestyle makes me feel alive!!!
+				Read more about me <a href="/about">here</a>.
 				<br />
 				<br />
 				You can find the source code of this blog <a href="https://github.com/AshkanArabim/blog-v2">here</a>.
